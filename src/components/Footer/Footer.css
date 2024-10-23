@@ -1,0 +1,19 @@
+.footer {
+  text-align: center;
+  margin: auto;
+  max-width: 80%;
+  /* border-top: 1px solid #ccc; */
+  padding: 15px 0px;
+  font-size: 14px;
+  transition: 0.5s;
+}
+.footer p:hover {
+  color: #333;
+  cursor: pointer;
+}
+.dark .footer{
+    color: #ccc;
+}
+.dark .footer p:hover{
+    color: #fff;
+}
